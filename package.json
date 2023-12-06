@@ -304,6 +304,26 @@
                 "type": "object",
                 "default": {},
                 "properties": {
+                  "symbolFileName": {
+                    "type": "string",
+                    "description": "Deprecated, use symbolFilesAndOffset instead. If specified, a symbol file to load at the given (optional) offset",
+                    "default": ""
+                  },
+                  "symbolOffset": {
+                    "type": "string",
+                    "description": "Deprecated, use symbolFilesAndOffset instead. If symbolFileName is specified, the offset used to load",
+                    "default": ""
+                  },
+                  "imageFileName": {
+                    "type": "string",
+                    "description": "Deprecated, use imageFilesAndOffset instead. If specified, an image file to load at the given (optional) offset",
+                    "default": ""
+                  },
+                  "imageOffset": {
+                    "type": "string",
+                    "description": "Deprecated, use imageFilesAndOffset instead. If imageFileName is specified, the offset used to load",
+                    "default": ""
+                  },
                   "symbolFilesAndOffset": {
                     "type": "array",
                     "description": "If specified, list of symbol files to load at the given (optional) offset",
@@ -567,6 +587,26 @@
                 "type": "object",
                 "default": {},
                 "properties": {
+                  "symbolFileName": {
+                    "type": "string",
+                    "description": "Deprecated, use symbolFilesAndOffset instead. If specified, a symbol file to load at the given (optional) offset",
+                    "default": ""
+                  },
+                  "symbolOffset": {
+                    "type": "string",
+                    "description": "Deprecated, use symbolFilesAndOffset instead. If symbolFileName is specified, the offset used to load",
+                    "default": ""
+                  },
+                  "imageFileName": {
+                    "type": "string",
+                    "description": "Deprecated, use imageFilesAndOffset instead. If specified, an image file to load at the given (optional) offset",
+                    "default": ""
+                  },
+                  "imageOffset": {
+                    "type": "string",
+                    "description": "Deprecated, use imageFilesAndOffset instead. If imageFileName is specified, the offset used to load",
+                    "default": ""
+                  },
                   "symbolFilesAndOffset": {
                     "type": "array",
                     "description": "If specified, list of symbol files to load at the given (optional) offset",
